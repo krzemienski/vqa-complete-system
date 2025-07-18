@@ -1,0 +1,76 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Model weights and large files
+*.pth
+*.pt
+*.ckpt
+*.weights
+*.bin
+
+# Video files (except small test samples)
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+!test_videos/README.md
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Swarm memory files
+.swarm/
+*/.swarm/
+
+# Results and outputs
+results/
+outputs/
+*_results.json
+
+# Docker volumes
+docker_volumes/

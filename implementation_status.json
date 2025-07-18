@@ -1,0 +1,505 @@
+{
+  "timestamp": "2025-07-18T15:35:42.794687",
+  "metrics": [
+    {
+      "name": "dover",
+      "directory": "/Users/nick/Desktop/vqa/vqa-complete-system/metrics/dover",
+      "files": {
+        "src/model": {
+          "exists": true,
+          "size": 4422,
+          "path": "/Users/nick/Desktop/vqa/vqa-complete-system/metrics/dover/src/dover.py"
+        },
+        "src/data_utils": {
+          "exists": true,
+          "size": 3910,
+          "path": "/Users/nick/Desktop/vqa/vqa-complete-system/metrics/dover/src/data_utils.py"
+        },
+        "runner": {
+          "exists": true,
+          "size": 4870,
+          "path": "/Users/nick/Desktop/vqa/vqa-complete-system/metrics/dover/run_dover.py"
+        },
+        "dockerfile": {
+          "exists": true,
+          "size": 1501,
+          "path": "/Users/nick/Desktop/vqa/vqa-complete-system/metrics/dover/Dockerfile"
+        },
+        "test": {
+          "exists": true,
+          "size": 8694,
+          "path": "/Users/nick/Desktop/vqa/vqa-complete-system/metrics/dover/test_dover.py"
+        },
+        "download_script": {
+          "exists": true,
+          "size": 1060,
+          "path": "/Users/nick/Desktop/vqa/vqa-complete-system/metrics/dover/download_models.sh"
+        }
+      },
+      "docker": false,
+      "status": "implemented"
+    },
+    {
+      "name": "fastvqa",
+      "directory": "/Users/nick/Desktop/vqa/vqa-complete-system/metrics/fastvqa",
+      "files": {
+        "src/model": {
+          "exists": true,
+          "size": 6258,
+          "path": "/Users/nick/Desktop/vqa/vqa-complete-system/metrics/fastvqa/src/fastvqa.py"
+        },
+        "src/data_utils": {
+          "exists": true,
+          "size": 7511,
+          "path": "/Users/nick/Desktop/vqa/vqa-complete-system/metrics/fastvqa/src/data_utils.py"
+        },
+        "runner": {
+          "exists": true,
+          "size": 5352,
+          "path": "/Users/nick/Desktop/vqa/vqa-complete-system/metrics/fastvqa/run_fastvqa.py"
+        },
+        "dockerfile": {
+          "exists": true,
+          "size": 1502,
+          "path": "/Users/nick/Desktop/vqa/vqa-complete-system/metrics/fastvqa/Dockerfile"
+        },
+        "test": {
+          "exists": true,
+          "size": 9493,
+          "path": "/Users/nick/Desktop/vqa/vqa-complete-system/metrics/fastvqa/test_fastvqa.py"
+        },
+        "download_script": {
+          "exists": true,
+          "size": 1258,
+          "path": "/Users/nick/Desktop/vqa/vqa-complete-system/metrics/fastvqa/download_models.sh"
+        }
+      },
+      "docker": false,
+      "status": "implemented"
+    },
+    {
+      "name": "mdtvsfa",
+      "directory": "/Users/nick/Desktop/vqa/vqa-complete-system/metrics/mdtvsfa",
+      "files": {
+        "src/model": {
+          "exists": true,
+          "size": 9774,
+          "path": "/Users/nick/Desktop/vqa/vqa-complete-system/metrics/mdtvsfa/src/mdtvsfa.py"
+        },
+        "src/data_utils": {
+          "exists": true,
+          "size": 9506,
+          "path": "/Users/nick/Desktop/vqa/vqa-complete-system/metrics/mdtvsfa/src/data_utils.py"
+        },
+        "runner": {
+          "exists": true,
+          "size": 7103,
+          "path": "/Users/nick/Desktop/vqa/vqa-complete-system/metrics/mdtvsfa/run_mdtvsfa.py"
+        },
+        "dockerfile": {
+          "exists": true,
+          "size": 1411,
+          "path": "/Users/nick/Desktop/vqa/vqa-complete-system/metrics/mdtvsfa/Dockerfile"
+        },
+        "test": {
+          "exists": true,
+          "size": 9689,
+          "path": "/Users/nick/Desktop/vqa/vqa-complete-system/metrics/mdtvsfa/test_mdtvsfa.py"
+        },
+        "download_script": {
+          "exists": true,
+          "size": 1209,
+          "path": "/Users/nick/Desktop/vqa/vqa-complete-system/metrics/mdtvsfa/download_models.sh"
+        }
+      },
+      "docker": false,
+      "status": "implemented"
+    },
+    {
+      "name": "rapique",
+      "directory": "/Users/nick/Desktop/vqa/vqa-complete-system/metrics/rapique",
+      "files": {
+        "src/model": {
+          "exists": false,
+          "size": 0,
+          "path": "/Users/nick/Desktop/vqa/vqa-complete-system/metrics/rapique/src/rapique.py"
+        },
+        "src/data_utils": {
+          "exists": false,
+          "size": 0,
+          "path": "/Users/nick/Desktop/vqa/vqa-complete-system/metrics/rapique/src/data_utils.py"
+        },
+        "runner": {
+          "exists": false,
+          "size": 0,
+          "path": "/Users/nick/Desktop/vqa/vqa-complete-system/metrics/rapique/run_rapique.py"
+        },
+        "dockerfile": {
+          "exists": false,
+          "size": 0,
+          "path": "/Users/nick/Desktop/vqa/vqa-complete-system/metrics/rapique/Dockerfile"
+        },
+        "test": {
+          "exists": false,
+          "size": 0,
+          "path": "/Users/nick/Desktop/vqa/vqa-complete-system/metrics/rapique/test_rapique.py"
+        },
+        "download_script": {
+          "exists": false,
+          "size": 0,
+          "path": "/Users/nick/Desktop/vqa/vqa-complete-system/metrics/rapique/download_models.sh"
+        }
+      },
+      "docker": false,
+      "status": "not_started"
+    },
+    {
+      "name": "videval",
+      "directory": "/Users/nick/Desktop/vqa/vqa-complete-system/metrics/videval",
+      "files": {
+        "src/model": {
+          "exists": false,
+          "size": 0,
+          "path": "/Users/nick/Desktop/vqa/vqa-complete-system/metrics/videval/src/videval.py"
+        },
+        "src/data_utils": {
+          "exists": false,
+          "size": 0,
+          "path": "/Users/nick/Desktop/vqa/vqa-complete-system/metrics/videval/src/data_utils.py"
+        },
+        "runner": {
+          "exists": false,
+          "size": 0,
+          "path": "/Users/nick/Desktop/vqa/vqa-complete-system/metrics/videval/run_videval.py"
+        },
+        "dockerfile": {
+          "exists": false,
+          "size": 0,
+          "path": "/Users/nick/Desktop/vqa/vqa-complete-system/metrics/videval/Dockerfile"
+        },
+        "test": {
+          "exists": false,
+          "size": 0,
+          "path": "/Users/nick/Desktop/vqa/vqa-complete-system/metrics/videval/test_videval.py"
+        },
+        "download_script": {
+          "exists": false,
+          "size": 0,
+          "path": "/Users/nick/Desktop/vqa/vqa-complete-system/metrics/videval/download_models.sh"
+        }
+      },
+      "docker": false,
+      "status": "not_started"
+    },
+    {
+      "name": "tlvqm",
+      "directory": "/Users/nick/Desktop/vqa/vqa-complete-system/metrics/tlvqm",
+      "files": {
+        "src/model": {
+          "exists": false,
+          "size": 0,
+          "path": "/Users/nick/Desktop/vqa/vqa-complete-system/metrics/tlvqm/src/tlvqm.py"
+        },
+        "src/data_utils": {
+          "exists": false,
+          "size": 0,
+          "path": "/Users/nick/Desktop/vqa/vqa-complete-system/metrics/tlvqm/src/data_utils.py"
+        },
+        "runner": {
+          "exists": false,
+          "size": 0,
+          "path": "/Users/nick/Desktop/vqa/vqa-complete-system/metrics/tlvqm/run_tlvqm.py"
+        },
+        "dockerfile": {
+          "exists": false,
+          "size": 0,
+          "path": "/Users/nick/Desktop/vqa/vqa-complete-system/metrics/tlvqm/Dockerfile"
+        },
+        "test": {
+          "exists": false,
+          "size": 0,
+          "path": "/Users/nick/Desktop/vqa/vqa-complete-system/metrics/tlvqm/test_tlvqm.py"
+        },
+        "download_script": {
+          "exists": false,
+          "size": 0,
+          "path": "/Users/nick/Desktop/vqa/vqa-complete-system/metrics/tlvqm/download_models.sh"
+        }
+      },
+      "docker": false,
+      "status": "not_started"
+    },
+    {
+      "name": "vqmtk",
+      "directory": "/Users/nick/Desktop/vqa/vqa-complete-system/metrics/vqmtk",
+      "files": {
+        "src/model": {
+          "exists": false,
+          "size": 0,
+          "path": "/Users/nick/Desktop/vqa/vqa-complete-system/metrics/vqmtk/src/vqmtk.py"
+        },
+        "src/data_utils": {
+          "exists": false,
+          "size": 0,
+          "path": "/Users/nick/Desktop/vqa/vqa-complete-system/metrics/vqmtk/src/data_utils.py"
+        },
+        "runner": {
+          "exists": false,
+          "size": 0,
+          "path": "/Users/nick/Desktop/vqa/vqa-complete-system/metrics/vqmtk/run_vqmtk.py"
+        },
+        "dockerfile": {
+          "exists": false,
+          "size": 0,
+          "path": "/Users/nick/Desktop/vqa/vqa-complete-system/metrics/vqmtk/Dockerfile"
+        },
+        "test": {
+          "exists": false,
+          "size": 0,
+          "path": "/Users/nick/Desktop/vqa/vqa-complete-system/metrics/vqmtk/test_vqmtk.py"
+        },
+        "download_script": {
+          "exists": false,
+          "size": 0,
+          "path": "/Users/nick/Desktop/vqa/vqa-complete-system/metrics/vqmtk/download_models.sh"
+        }
+      },
+      "docker": false,
+      "status": "not_started"
+    },
+    {
+      "name": "nrmetric",
+      "directory": "/Users/nick/Desktop/vqa/vqa-complete-system/metrics/nrmetric",
+      "files": {
+        "src/model": {
+          "exists": false,
+          "size": 0,
+          "path": "/Users/nick/Desktop/vqa/vqa-complete-system/metrics/nrmetric/src/nrmetric.py"
+        },
+        "src/data_utils": {
+          "exists": false,
+          "size": 0,
+          "path": "/Users/nick/Desktop/vqa/vqa-complete-system/metrics/nrmetric/src/data_utils.py"
+        },
+        "runner": {
+          "exists": false,
+          "size": 0,
+          "path": "/Users/nick/Desktop/vqa/vqa-complete-system/metrics/nrmetric/run_nrmetric.py"
+        },
+        "dockerfile": {
+          "exists": false,
+          "size": 0,
+          "path": "/Users/nick/Desktop/vqa/vqa-complete-system/metrics/nrmetric/Dockerfile"
+        },
+        "test": {
+          "exists": false,
+          "size": 0,
+          "path": "/Users/nick/Desktop/vqa/vqa-complete-system/metrics/nrmetric/test_nrmetric.py"
+        },
+        "download_script": {
+          "exists": false,
+          "size": 0,
+          "path": "/Users/nick/Desktop/vqa/vqa-complete-system/metrics/nrmetric/download_models.sh"
+        }
+      },
+      "docker": false,
+      "status": "not_started"
+    },
+    {
+      "name": "bliinds",
+      "directory": "/Users/nick/Desktop/vqa/vqa-complete-system/metrics/bliinds",
+      "files": {
+        "src/model": {
+          "exists": false,
+          "size": 0,
+          "path": "/Users/nick/Desktop/vqa/vqa-complete-system/metrics/bliinds/src/bliinds.py"
+        },
+        "src/data_utils": {
+          "exists": false,
+          "size": 0,
+          "path": "/Users/nick/Desktop/vqa/vqa-complete-system/metrics/bliinds/src/data_utils.py"
+        },
+        "runner": {
+          "exists": false,
+          "size": 0,
+          "path": "/Users/nick/Desktop/vqa/vqa-complete-system/metrics/bliinds/run_bliinds.py"
+        },
+        "dockerfile": {
+          "exists": false,
+          "size": 0,
+          "path": "/Users/nick/Desktop/vqa/vqa-complete-system/metrics/bliinds/Dockerfile"
+        },
+        "test": {
+          "exists": false,
+          "size": 0,
+          "path": "/Users/nick/Desktop/vqa/vqa-complete-system/metrics/bliinds/test_bliinds.py"
+        },
+        "download_script": {
+          "exists": false,
+          "size": 0,
+          "path": "/Users/nick/Desktop/vqa/vqa-complete-system/metrics/bliinds/download_models.sh"
+        }
+      },
+      "docker": false,
+      "status": "not_started"
+    },
+    {
+      "name": "cambi",
+      "directory": "/Users/nick/Desktop/vqa/vqa-complete-system/metrics/cambi",
+      "files": {
+        "src/model": {
+          "exists": false,
+          "size": 0,
+          "path": "/Users/nick/Desktop/vqa/vqa-complete-system/metrics/cambi/src/cambi.py"
+        },
+        "src/data_utils": {
+          "exists": false,
+          "size": 0,
+          "path": "/Users/nick/Desktop/vqa/vqa-complete-system/metrics/cambi/src/data_utils.py"
+        },
+        "runner": {
+          "exists": false,
+          "size": 0,
+          "path": "/Users/nick/Desktop/vqa/vqa-complete-system/metrics/cambi/run_cambi.py"
+        },
+        "dockerfile": {
+          "exists": false,
+          "size": 0,
+          "path": "/Users/nick/Desktop/vqa/vqa-complete-system/metrics/cambi/Dockerfile"
+        },
+        "test": {
+          "exists": false,
+          "size": 0,
+          "path": "/Users/nick/Desktop/vqa/vqa-complete-system/metrics/cambi/test_cambi.py"
+        },
+        "download_script": {
+          "exists": false,
+          "size": 0,
+          "path": "/Users/nick/Desktop/vqa/vqa-complete-system/metrics/cambi/download_models.sh"
+        }
+      },
+      "docker": false,
+      "status": "not_started"
+    },
+    {
+      "name": "cover",
+      "directory": "/Users/nick/Desktop/vqa/vqa-complete-system/metrics/cover",
+      "files": {
+        "src/model": {
+          "exists": false,
+          "size": 0,
+          "path": "/Users/nick/Desktop/vqa/vqa-complete-system/metrics/cover/src/cover.py"
+        },
+        "src/data_utils": {
+          "exists": false,
+          "size": 0,
+          "path": "/Users/nick/Desktop/vqa/vqa-complete-system/metrics/cover/src/data_utils.py"
+        },
+        "runner": {
+          "exists": false,
+          "size": 0,
+          "path": "/Users/nick/Desktop/vqa/vqa-complete-system/metrics/cover/run_cover.py"
+        },
+        "dockerfile": {
+          "exists": false,
+          "size": 0,
+          "path": "/Users/nick/Desktop/vqa/vqa-complete-system/metrics/cover/Dockerfile"
+        },
+        "test": {
+          "exists": false,
+          "size": 0,
+          "path": "/Users/nick/Desktop/vqa/vqa-complete-system/metrics/cover/test_cover.py"
+        },
+        "download_script": {
+          "exists": false,
+          "size": 0,
+          "path": "/Users/nick/Desktop/vqa/vqa-complete-system/metrics/cover/download_models.sh"
+        }
+      },
+      "docker": false,
+      "status": "not_started"
+    },
+    {
+      "name": "stablevqa",
+      "directory": "/Users/nick/Desktop/vqa/vqa-complete-system/metrics/stablevqa",
+      "files": {
+        "src/model": {
+          "exists": false,
+          "size": 0,
+          "path": "/Users/nick/Desktop/vqa/vqa-complete-system/metrics/stablevqa/src/stablevqa.py"
+        },
+        "src/data_utils": {
+          "exists": false,
+          "size": 0,
+          "path": "/Users/nick/Desktop/vqa/vqa-complete-system/metrics/stablevqa/src/data_utils.py"
+        },
+        "runner": {
+          "exists": false,
+          "size": 0,
+          "path": "/Users/nick/Desktop/vqa/vqa-complete-system/metrics/stablevqa/run_stablevqa.py"
+        },
+        "dockerfile": {
+          "exists": false,
+          "size": 0,
+          "path": "/Users/nick/Desktop/vqa/vqa-complete-system/metrics/stablevqa/Dockerfile"
+        },
+        "test": {
+          "exists": false,
+          "size": 0,
+          "path": "/Users/nick/Desktop/vqa/vqa-complete-system/metrics/stablevqa/test_stablevqa.py"
+        },
+        "download_script": {
+          "exists": false,
+          "size": 0,
+          "path": "/Users/nick/Desktop/vqa/vqa-complete-system/metrics/stablevqa/download_models.sh"
+        }
+      },
+      "docker": false,
+      "status": "not_started"
+    },
+    {
+      "name": "objective_metrics",
+      "directory": "/Users/nick/Desktop/vqa/vqa-complete-system/metrics/objective_metrics",
+      "files": {
+        "src/model": {
+          "exists": false,
+          "size": 0,
+          "path": "/Users/nick/Desktop/vqa/vqa-complete-system/metrics/objective_metrics/src/objective_metrics.py"
+        },
+        "src/data_utils": {
+          "exists": false,
+          "size": 0,
+          "path": "/Users/nick/Desktop/vqa/vqa-complete-system/metrics/objective_metrics/src/data_utils.py"
+        },
+        "runner": {
+          "exists": false,
+          "size": 0,
+          "path": "/Users/nick/Desktop/vqa/vqa-complete-system/metrics/objective_metrics/run_objective_metrics.py"
+        },
+        "dockerfile": {
+          "exists": false,
+          "size": 0,
+          "path": "/Users/nick/Desktop/vqa/vqa-complete-system/metrics/objective_metrics/Dockerfile"
+        },
+        "test": {
+          "exists": false,
+          "size": 0,
+          "path": "/Users/nick/Desktop/vqa/vqa-complete-system/metrics/objective_metrics/test_objective_metrics.py"
+        },
+        "download_script": {
+          "exists": false,
+          "size": 0,
+          "path": "/Users/nick/Desktop/vqa/vqa-complete-system/metrics/objective_metrics/download_models.sh"
+        }
+      },
+      "docker": false,
+      "status": "not_started"
+    }
+  ],
+  "summary": {
+    "total": 13,
+    "implemented": 3,
+    "in_progress": 0,
+    "not_started": 10
+  }
+}
